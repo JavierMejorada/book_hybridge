@@ -107,7 +107,7 @@ def main():
 
     plt.tight_layout()
     plt.savefig(RUTA_GRAFICA, dpi=150)
-    plt.show()
+    plt.close()
 
 
 if __name__ == "__main__":
